@@ -17,7 +17,7 @@ Here the figures are also formed. I included sample code for this and if you wan
 - *dataFCS*: This extracts your data from the FCS files and sorts them into their appropriate channel (ie. Green, Red-B, etc.), each column is an individual sampling
 - *dataAnaFCS*: This function takes your data and sorts it into bins for a histogram. If you have replicates, this step will compute the average and the standard deviation for that well. Each column in the matrices that are outputs are individual wells.
 - *fca_readfcs* (Henson, 2016): This reads the FCS files. If you want to extract the data for one sample you can just use this. Sample calls are included in the Matlab file
--- *dscatter* (Henson, 2016): This creates a scatter plot (of the Forward and Side distributions) for your individual samples.
+ - *dscatter* (Henson, 2016): This creates a scatter plot (of the Forward and Side distributions) for your individual samples.
 - *shadedErrorBar* (Campbell, 2009): Plots the mean value for each well and its standard deviation is shown by the shaded area.
 
 ### References:
