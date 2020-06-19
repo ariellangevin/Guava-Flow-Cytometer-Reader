@@ -10,8 +10,8 @@ You will have individual FCS files named as "(Date and Time Stamp)-(Sample Numbe
 
 ## File Guide:
 
-- *FCS_SampleRead.m*: Hard coded copy to enter inputs, including the information about the sample set and histogram settings.
-Here the figures are also formed. I included sample code for this and if you want help customizing it, just ask me.
+- *FCS_SampleRead.m*: Hard coded script where users can enter inputs, including the information about the sample set and histogram settings. Example run and figures for a data set that reached the required counts for the flow cytometer. (Assosciated data set is "2015-10-18_SampleRead".)
+- *FCS_SmallSampleRead.m*: Another hard coded example, this data set has a lower count number for each sample than the device's required count number. This example also has no replicates. (Assosciated data set is "2019-01-31_SmallSampleRead".)
  
 ### Functions:
 - *dataFCS.m*: This extracts your data from the FCS files and sorts them into their appropriate channel (ie. Green, Red-B, etc.), each column is an individual sampling
